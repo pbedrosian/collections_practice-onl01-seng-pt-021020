@@ -32,5 +32,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map {|test| "#{test}s"
+  array.map {|test| "#{test}s"}
 end
