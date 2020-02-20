@@ -21,4 +21,4 @@ end
 
 def kesha_maker(array)
   array.each { |sym|  sym[2] = "$"}
-  end
+end
