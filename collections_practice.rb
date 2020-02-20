@@ -32,5 +32,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.map.except[1] {|test| "#{test}s"}
+  array.each_with_index.collect |element, index|
+  if index != 1
+    "#{element}s"
+  end
 end
