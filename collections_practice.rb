@@ -25,3 +25,4 @@ end
 
 def find_a(array)
   array.all? {|a| a.start_with?("a")}
+end
